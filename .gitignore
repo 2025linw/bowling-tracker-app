@@ -1,15 +1,14 @@
-# Build targets
-/target
-
-# MacOS Specific File
-**/.DS_Store
+# DevEnv Config Files
+**/.vscode
 
 # Environment Files
 **/.env
 
-# VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# Log Files
+**/*.log
+
+# MacOS Files
+**/.DS_Store
+
+# Compilation targets (TODO: remove after refactor)
+/target
